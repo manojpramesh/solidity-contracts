@@ -5,7 +5,7 @@ contract ChainInfo {
     {
         creator = msg.sender; 								    
     }
-	    
+	 
 	function getContractAddress() constant returns (address) 
 	{
 		return this;
